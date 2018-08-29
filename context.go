@@ -2,8 +2,7 @@ package decimal
 
 import (
 	"fmt"
-	"strings"
-
+	"github.com/ericlagergren/decimal/internal/buf"
 	"github.com/ericlagergren/decimal/internal/c"
 )
 
@@ -291,7 +290,7 @@ func (c Condition) String() string {
 		return ""
 	}
 
-	var b strings.Builder
+	var b buf.B
 	for i := Condition(1); c != 0; i <<= 1 {
 		if c&i == 0 {
 			continue
