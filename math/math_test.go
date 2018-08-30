@@ -3,7 +3,7 @@ package math_test
 import (
 	"testing"
 
-	"github.com/ericlagergren/decimal/internal/test"
+	"github.com/grodriguez85/decimal/internal/test"
 )
 
 func TestExp(t *testing.T)   { test.Exp.Test(t) }

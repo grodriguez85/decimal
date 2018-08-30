@@ -4,10 +4,10 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/ericlagergren/decimal/internal/arith"
-	"github.com/ericlagergren/decimal/internal/arith/checked"
-	cst "github.com/ericlagergren/decimal/internal/c"
-	"github.com/ericlagergren/decimal/internal/compat"
+	"github.com/grodriguez85/decimal/internal/arith"
+	"github.com/grodriguez85/decimal/internal/arith/checked"
+	cst "github.com/grodriguez85/decimal/internal/c"
+	"github.com/grodriguez85/decimal/internal/compat"
 )
 
 // Add sets z to x + y and returns z.

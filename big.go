@@ -12,11 +12,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ericlagergren/decimal/internal/arith"
-	"github.com/ericlagergren/decimal/internal/arith/checked"
-	"github.com/ericlagergren/decimal/internal/buf"
-	"github.com/ericlagergren/decimal/internal/c"
-	"github.com/ericlagergren/decimal/internal/compat"
+	"github.com/grodriguez85/decimal/internal/arith"
+	"github.com/grodriguez85/decimal/internal/arith/checked"
+	"github.com/grodriguez85/decimal/internal/buf"
+	"github.com/grodriguez85/decimal/internal/c"
+	"github.com/grodriguez85/decimal/internal/compat"
 )
 
 // Big is a floating-point, arbitrary-precision decimal.

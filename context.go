@@ -2,8 +2,8 @@ package decimal
 
 import (
 	"fmt"
-	"github.com/ericlagergren/decimal/internal/buf"
-	"github.com/ericlagergren/decimal/internal/c"
+	"github.com/grodriguez85/decimal/internal/buf"
+	"github.com/grodriguez85/decimal/internal/c"
 )
 
 // Precision and scale limits.

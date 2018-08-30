@@ -3,7 +3,7 @@ package math
 import (
 	"fmt"
 
-	"github.com/ericlagergren/decimal"
+	"github.com/grodriguez85/decimal"
 )
 
 // Term is a specific term in a continued fraction. A and B correspond with the

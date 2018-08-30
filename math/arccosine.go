@@ -1,7 +1,7 @@
 package math
 
 import (
-	"github.com/ericlagergren/decimal"
+	"github.com/grodriguez85/decimal"
 )
 
 // Acos returns the arccosine, in radians, of x.
