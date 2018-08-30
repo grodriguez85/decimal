@@ -776,7 +776,7 @@ func (x *Big) Int64() (int64, bool) {
 	// shrink it enough. See issue #20.
 	if !x.isCompact() {
 		xb := x.Int(nil)
-		return xb.Uint64(), arith.IsUint64(xb)
+		return xb.Int64(), arith.IsUint64(xb)
 	}
 
 	u := x.compact
@@ -811,7 +811,7 @@ func (x *Big) Uint64() (uint64, bool) {
 	// shrink it enough. See issue #20.
 	if !x.isCompact() {
 		xb := x.Int(nil)
-		return xb.Uint64(), xb.IsUint64()
+		return xb.Uint64(), arith.IsUint64(xb)
 	}
 
 	b := x.compact
