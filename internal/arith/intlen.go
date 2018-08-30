@@ -3,7 +3,7 @@ package arith
 import (
 	"math/big"
 	"math/bits"
-	"github.com/ericlagergren/decimal/internal/compat"
+	"github.com/grodriguez85/decimal/internal/compat"
 )
 
 func IsUint64(x *big.Int) bool {	
